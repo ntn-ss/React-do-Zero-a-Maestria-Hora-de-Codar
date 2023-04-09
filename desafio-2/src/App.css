@@ -1,0 +1,23 @@
+:root {
+  --gradientSource: #00C6FB;
+  --gradientEnd: #005BEA;
+}
+
+.App {
+  color: white;
+  text-align: center;
+}
+
+body, html {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: linear-gradient(var(--gradientSource), var(--gradientEnd));
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.App button {
+  margin-bottom: 1rem;
+}
