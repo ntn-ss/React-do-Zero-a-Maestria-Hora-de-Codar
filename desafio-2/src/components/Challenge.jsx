@@ -1,8 +1,8 @@
 const Challenge = ({ x , y } ) => {
     x = Number(x); y = Number(y)
-    const eventoSoma = (e) => console.log(x+y)
-    const eventoSubtrai = (e) => console.log(x-y)
-    const eventoDivide = (e) => console.log(x/y)
+    const eventoSoma = (e) => alert(`A soma é ${x+y}.`);
+    const eventoSubtrai = (e) => alert(`A diferença é ${x-y}.`);
+    const eventoDivide = (e) => alert(`O resto é ${x/y}.`);
     return (
         <div>
             <h1>Calculadeiro</h1>
@@ -12,7 +12,7 @@ const Challenge = ({ x , y } ) => {
             <button onClick={eventoDivide}>Clique aqui para dividi-los.</button><br />
             
             {/* Decidi fazer em função de flecha anônima para teste. */}
-            <button onClick={() => console.log(x*y)}>Clique aqui para multiplicá-los.</button><br />
+            <button onClick={() => alert(`A multiplicação é ${x*y}.`)}>Clique aqui para multiplicá-los.</button><br />
         </div>
     )
 }
