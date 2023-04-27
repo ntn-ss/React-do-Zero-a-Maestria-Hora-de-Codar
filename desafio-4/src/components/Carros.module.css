@@ -1,0 +1,22 @@
+.carros_conteiner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.carros_card {
+    border: 5px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.titulo_carros {
+    color: darkblue;
+    background-color: orange;
+}
+
+.texto_carros {
+    padding: 10px;
+    font-weight: bold;
+}
