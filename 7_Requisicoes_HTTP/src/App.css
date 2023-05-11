@@ -1,0 +1,45 @@
+.App {
+    text-align: center;
+}
+
+.add-product {
+    border-top: 2px solid black;
+}
+
+form label, form input {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+ form {
+    align-items: center;
+    justify-content: center;
+}
+
+form input {
+    margin-bottom: 15px;
+}
+
+ul.listaProdutos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  li.produtoLista {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .botoesLista {
+    margin-left: 5px;
+    color: red;
+    transition: transform .2s;
+  }
+  
+  .botoesLista:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+  }
