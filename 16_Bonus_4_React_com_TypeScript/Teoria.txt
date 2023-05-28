@@ -1,0 +1,1 @@
+Adicionar TypeScript ao React traz mais possibilidades. Seguindo a mesma linha que em JS, temos uma forma mais padronizada para programar, como tipos para componentes ou mapeamento de props por meio de interface. Isso traz mais confiabilidade ao projeto e a "taipescriptização" de projetos outrora feitos em JavaScript é uma ocorrência cada vez mais recorrente hoje em dia.
