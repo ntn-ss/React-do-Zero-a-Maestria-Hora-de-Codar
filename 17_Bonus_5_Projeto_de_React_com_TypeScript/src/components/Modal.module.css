@@ -1,0 +1,55 @@
+:root {
+    --fundoModal: #000000;
+    --corpoModal: #FFFFFF;
+    --bordaForm: #282C34;
+}
+
+.fade {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: var(--fundoModal);
+    opacity: 0.3;
+}
+
+.modal {
+    position: fixed;
+    top: 18%;
+    left: 0;
+    right: 0;
+    margin: auto auto;
+    width: 500px;
+    height: 400px;
+    z-index: 1;
+    background-color: var(--corpoModal);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.modal h2{
+    margin-bottom: 1em;
+}
+
+.modal form {
+    width: 90%;
+}
+
+.modal button {
+    width: 100%;
+    background-color: var(--azulReact);
+    border: 1px solid var(--azulReact);
+    color: var(--corBotao);
+    transition: .5s;
+    cursor: pointer;
+    padding: 8px 15px;
+    border-radius: 0;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.modal button:hover {
+    background-color: var(--corTexto);
+    border-color: var(--bordaForm);
+}

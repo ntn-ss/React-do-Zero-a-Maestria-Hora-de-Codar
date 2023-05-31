@@ -1,0 +1,6 @@
+.header {
+    background-color: var(--corFundo);
+    color: var(--azulReact);
+    text-align: center;
+    padding: 1em;
+}

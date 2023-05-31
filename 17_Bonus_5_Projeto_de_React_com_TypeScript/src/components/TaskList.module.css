@@ -1,0 +1,44 @@
+:root {
+    --bordaTask: #CCCCCC;
+    --fundoIcone: #282C34;
+    --corIcone: #FFFFFF;
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    max-width: 400px;
+    margin: 0 auto;
+    border-top: 1px solid var(--bordaTask);
+    padding: 1em;
+}
+
+.details {
+    text-align: left;
+}
+
+.details h4 {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+.actions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.actions i {
+    margin-bottom: .5em;
+    font-size: 1.2em;
+    cursor: pointer;
+    background-color: var(--fundoIcone);
+    color: var(--corIcone);
+    padding: .4em;
+    transition: .5s;
+}
+
+.actions i:hover {
+    color: var(--azulReact);
+}
