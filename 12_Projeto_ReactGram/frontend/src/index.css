@@ -10,6 +10,12 @@
     --preto: #000000;
     --branco: #FFFFFF;
     --subtitle: #999999;
+    --error: #721C24;
+    --bgError: #F8D7DA;
+    --borderError: #F5C6CB;
+    --success: #155724;
+    --bgSuccess: #D4EDDA;
+    --borderSuccess: #C3E6CB;
 }
 
 body {
